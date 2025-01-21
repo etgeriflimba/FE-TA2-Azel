@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "role": "Admin",
+      "name": "Admin",
+      "username": "admin",
+      "password": "password",
+      "profile_url": "/avatar.png"
+    },
+    {
+      "id": "2",
+      "role": "User",
+      "name": "Asty",
+      "username": "asty",
+      "password": "password",
+      "profile_url": "/avatar.png"
+    }
+  ],
+  "history": [],
+  "reservations": [
+    {
+      "id": "1",
+      "image": "/kebidanan.png",
+      "specialization": "Kebidanan dan Kandungan",
+      "desc_day": "Senin - Sabtu",
+      "desc_time": "19.00 - 21.00",
+      "status": "Aktif",
+      "available_times": ["19.00", "19.30", "20.00", "20.30", "21.00"],
+      "reserved_dates": []
+    },
+    {
+      "id": "2",
+      "image": "/kejiwaan.png",
+      "specialization": "Kejiwaan",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai",
+      "status": "Aktif",
+      "available_times": ["15.00", "15.30", "16.00", "16.30", "17.00", "17.30", "18.00", "18.30", "19.00", "19.30", "20.00", "20.30", "21.00", "21.30", "22.00", "22.30", "23.00", "23.30", "00.00"],
+      "reserved_dates": []
+    },
+    {
+      "id": "3",
+      "image": "/tht.png",
+      "specialization": "THT-KL",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai",
+      "status": "Aktif",
+      "available_times": ["15.00", "15.30", "16.00", "16.30", "17.00", "17.30", "18.00", "18.30", "19.00", "19.30", "20.00", "20.30", "21.00", "21.30", "22.00", "22.30", "23.00", "23.30", "00.00"],
+      "reserved_dates": []
+    },
+    {
+      "id": "4",
+      "image": "/bedah.png",
+      "specialization": "Bedah",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai",
+      "status": "Aktif",
+      "available_times": ["15.00", "15.30", "16.00", "16.30", "17.00", "17.30", "18.00", "18.30", "19.00", "19.30", "20.00", "20.30", "21.00", "21.30", "22.00", "22.30", "23.00", "23.30", "00.00"],
+      "reserved_dates": []
+    },
+    {
+      "id": "5",
+      "image": "/jantung.png",
+      "specialization": "Jantung",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai",
+      "status": "Aktif",
+      "available_times": ["15.00", "15.30", "16.00", "16.30", "17.00", "17.30", "18.00", "18.30", "19.00", "19.30", "20.00", "20.30", "21.00", "21.30", "22.00", "22.30", "23.00", "23.30", "00.00"],
+      "reserved_dates": []
+    },
+    {
+      "id": "6",
+      "image": "/umum.png",
+      "specialization": "Umum",
+      "desc_day": "Setiap Hari",
+      "desc_time": "24 Jam",
+      "status": "Aktif",
+      "available_times": [
+        "08.00",
+        "08.30",
+        "09.00",
+        "09.30",
+        "10.00",
+        "10.30",
+        "11.00",
+        "11.30",
+        "12.00",
+        "12.30",
+        "13.00",
+        "13.30",
+        "14.00",
+        "14.30",
+        "15.00",
+        "15.30",
+        "16.00",
+        "16.30",
+        "17.00",
+        "17.30",
+        "18.00",
+        "18.30",
+        "19.00",
+        "19.30",
+        "20.00",
+        "20.30",
+        "21.00",
+        "21.30",
+        "22.00",
+        "22.30",
+        "23.00",
+        "23.30",
+        "00.00",
+        "00.30",
+        "01.00",
+        "01.30",
+        "02.00",
+        "02.30",
+        "03.00",
+        "03.30",
+        "04.00",
+        "04.30",
+        "05.00",
+        "05.30",
+        "06.00",
+        "06.30",
+        "07.00",
+        "07.30"
+      ],
+      "reserved_dates": []
+    }
+  ],
+  "doctors": [
+    {
+      "id": "1",
+      "name": "dr. Imanuel. S. Auparay, Sp.O.G",
+      "specialization": "Kebidanan dan Kandungan",
+      "status": "Aktif"
+    },
+    {
+      "id": "2",
+      "name": "dr. Octhavianti Palyngan Sp.KJ",
+      "specialization": "Kejiwaan",
+      "status": "Aktif"
+    },
+    {
+      "id": "3",
+      "name": "dr. Emmy Palingan.Sp.B",
+      "specialization": "Bedah",
+      "status": "Aktif"
+    },
+    {
+      "id": "4",
+      "name": "dr. Roland Mangonta.Sp.T.H.T.K.L",
+      "specialization": "THT-KL",
+      "status": "Aktif"
+    },
+    {
+      "id": "5",
+      "name": "dr. Rini Anastasia, Sp.JP",
+      "specialization": "Jantung",
+      "status": "Aktif"
+    },
+    {
+      "id": "6",
+      "name": "dr. Loretha S. Auparay ",
+      "specialization": "Umum",
+      "status": "Aktif"
+    }
+  ],
+  "schedules_specialization": [
+    {
+      "id": "1",
+      "doctor": "dr. Imanuel. S. Auparay, Sp.O.G",
+      "specialization": "Kebidanan dan Kandungan",
+      "desc_day": "Senin - Sabtu",
+      "desc_time": "19.00 - 21.00"
+    },
+    {
+      "id": "2",
+      "doctor": "dr. Octhavianti Palyngan Sp.KJ",
+      "specialization": "Kejiwaan",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai"
+    },
+    {
+      "id": "3",
+      "doctor": "dr. Emmy Palingan.Sp.B",
+      "specialization": "Bedah",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai"
+    },
+    {
+      "id": "4",
+      "doctor": "dr. Roland Mangonta.Sp.T.H.T.K.L",
+      "specialization": "THT-KL",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai"
+    },
+    {
+      "id": "5",
+      "doctor": "dr. Rini Anastasia, Sp.JP",
+      "specialization": "Jantung",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai"
+    },
+    {
+      "id": "6",
+      "doctor": "dr. Loretha S. Auparay ",
+      "specialization": "Umum",
+      "desc_day": "Setiap Hari",
+      "desc_time": "15.00 - Selesai"
+    }
+  ],
+  "schedules_general": [
+    {
+      "id": "1",
+      "time": "08.00 - 14.00",
+      "monday": "dr. Loretha",
+      "tuesday": "dr. Gally",
+      "wednesday": "dr. Christin",
+      "thursday": "dr. Rona",
+      "friday": "dr. Loretha",
+      "saturday": "dr. Loretha",
+      "sunday": "dr. Rona"
+    },
+    {
+      "id": "2",
+      "time": "14.00 - 21.00",
+      "monday": "dr. Loretha",
+      "tuesday": "dr. Gally",
+      "wednesday": "dr. Patrick",
+      "thursday": "dr. Rona",
+      "friday": "dr. Christin",
+      "saturday": "dr. Patrick",
+      "sunday": "dr. Rona"
+    },
+    {
+      "id": "3",
+      "time": "21.00 - 08.00",
+      "monday": "dr. Rona",
+      "tuesday": "dr. Gally",
+      "wednesday": "dr. Patrick",
+      "thursday": "dr. Rona",
+      "friday": "dr. Gally",
+      "saturday": "dr. Patrick",
+      "sunday": "dr. Rona"
+    }
+  ]
+}
